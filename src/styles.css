@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body,
+.MuiInput-input {
+  font-family: "Poppins", sans-serif;
+}
+
+strong {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 200;
+  padding-left: 15px;
+  margin-top: 2px;
+}
+
+.image,
+.details {
+  display: inline-block;
+}
+
+img {
+  border: 2px solid #eeeeee;
+  border-radius: 50%;
+  padding: 1px;
+  height: 110px;
+}
+
+.details {
+  padding-left: 30px;
+}
+
+.MuiSvgIcon-root {
+  position: absolute;
+  margin-top: -150px;
+  right: 1%;
+  stroke: #bdbdbd;
+  stroke-width: 1;
+}
+
+.cards {
+  border-bottom: 1px solid #eeeeee;
+  margin-top: 10px;
+}
+
+.MuiCollapse-container {
+  padding-left: 148px;
+}
+
+.tests {
+  line-height: 0.4;
+}
+
+.grade {
+  margin-left: 22px;
+}
+
+.MuiTextField-root #add-tag-input {
+  color: #bdbdbd;
+}
+
+.tags {
+  display: inline-block;
+}
+
+.tags span {
+  text-align: center;
+  background: #dbd9db;
+  padding: 5px;
+}
